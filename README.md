@@ -1,1 +1,1 @@
-# copy-sketch
+# etch-a-sketch
