@@ -1,5 +1,5 @@
 # Etch-A-Sketch Project
-[etcha-sketch.com](https://hosja83.github.io/etcha-sketch/)
+[hosja83.github.io/etcha-sketch/](https://hosja83.github.io/etcha-sketch/)
 
 ## Tools
 Languages & Web Technologies
