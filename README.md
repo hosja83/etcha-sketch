@@ -1,4 +1,4 @@
-# Etch-A-Sketch Project
+# Etch-A-Sketch
 Live Webpage: [hosja83.github.io/etcha-sketch/](https://hosja83.github.io/etcha-sketch/)
 
 ## Tools
