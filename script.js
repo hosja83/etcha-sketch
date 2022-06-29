@@ -39,7 +39,7 @@ function githubUsernameLink() {
   const usernameLink = document.createElement('a');
   usernameLink.setAttribute('href', 'https://github.com/hosja83/etch-a-sketch');
   usernameLink.setAttribute('target', '_blank');
-  usernameLink.textContent = 'hosja83 ';
+  usernameLink.textContent = 'Alhosainy Altaher ';
   footer.appendChild(usernameLink);
 }
 
