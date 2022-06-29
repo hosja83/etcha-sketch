@@ -96,3 +96,13 @@ input[type=color]::-webkit-color-swatch {
 .github-logo {
   font-size: 24px !important;
 }
+
+i.fa.fa-github.github-logo:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition: transform .3s;
+  color: orangered;
+}
+
+.fa {
+  margin-left: 4px;
+}

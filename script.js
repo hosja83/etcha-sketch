@@ -37,17 +37,20 @@ function printCurrentYear() {
 
 function githubUsernameLink() {
   const usernameLink = document.createElement('a');
-  usernameLink.setAttribute('href', 'https://github.com/hosja83/etch-a-sketch');
+  usernameLink.setAttribute('href', 'https://github.com/hosja83/');
   usernameLink.setAttribute('target', '_blank');
-  usernameLink.textContent = 'Alhosainy Altaher ';
+  usernameLink.textContent = 'Alhosainy Altaher';
   footer.appendChild(usernameLink);
 }
 
 function printGithubLogo() {
+  const githubLink = document.createElement('a');
+  githubLink.setAttribute('href', "https://github.com/hosja83/etcha-sketch");
+  githubLink.setAttribute('target', '_blank');
   const githubLogo = document.createElement('i');
-  githubLogo.setAttribute('class', 'fa fa-github');
+  githubLogo.setAttribute('class', 'fa fa-github github-logo');
   githubLogo.classList.add('github-logo');
-  footer.appendChild(githubLogo);
+  footer.appendChild(githubLink).appendChild(githubLogo);
 }
 
 function createSlider() {
